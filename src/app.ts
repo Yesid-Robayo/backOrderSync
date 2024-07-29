@@ -2,6 +2,9 @@
 import express, { Request, Response } from 'express';
 import { initRoutes } from './routes';
 
+/**
+ * Express application instance.
+ */
 const app = express();
 const port = 3001;
 
